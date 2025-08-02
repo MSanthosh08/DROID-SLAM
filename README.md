@@ -1,26 +1,6 @@
 # DROID-SLAM
 
 
-<!-- <center><img src="misc/DROID.png" width="640" style="center"></center> -->
-
-
-[![IMAGE ALT TEXT HERE](misc/screenshot.png)](https://www.youtube.com/watch?v=GG78CSlSHSA)
-
-
-
-[DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras](https://arxiv.org/abs/2108.10869)  
-Zachary Teed and Jia Deng
-
-```
-@article{teed2021droid,
-  title={{DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras}},
-  author={Teed, Zachary and Deng, Jia},
-  journal={Advances in neural information processing systems},
-  year={2021}
-}
-```
-
-
 ## Requirements
 
 To run the code you will need ...
@@ -250,3 +230,5 @@ python train.py --datapath=<path to tartanair> --gpus=4 --lr=0.00025
 
 ## Acknowledgements
 Data from [TartanAir](https://theairlab.org/tartanair-dataset/) was used to train our model. We additionally use evaluation tools from [evo](https://github.com/MichaelGrupp/evo) and [tartanair_tools](https://github.com/castacks/tartanair_tools).
+
+**credit:** Zachary Teed and Jia Deng
